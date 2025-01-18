@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINK CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="class main-container">
+            <div class="nav">
+                <div class="logo">
+                    <a href="#">Audio to Text</a>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Label</a></li>
+                        <li><a href="#">Read Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- End of navbar -->
+
+    <!-- Upload file -->
+        <div class="container-upload">
+            <div class="upload-box">
+                <div class="icon">+</div>
+                <p>Drag and drop <br> or <a href="#">Browse to upload</a></p>
+                <p>Supports all audio,mp3, mp4</p>
+            </div>
+
+            <div class="description">
+                <h1>Konversi file audio dan video menjadi teks hanya dengan satu klik.</h1>
+                <p>Unggah file Anda sekarang dan mulai transkripsi dalam hitungan detik</p>
+            </div>
+        </div>
+    <!-- End of upload file -->
+
+    <!-- Result -->
+    <div class="container-result">
+        <div class="result">
+            <h1>RESULT</h1>
+            <div class="result-box">
+                <p id="audio-text">
+                    Audio to Text adalah platform sederhana dan efisien yang membantu Anda mengonversi percakapan, wawancara, kuliah, atau rekaman lainnya menjadi teks. Kami mendukung berbagai format file, termasuk MP3, MP4, dan banyak lagi.
+                </p>
+                <button class="copy-btn" onclick="copyToClipboard()">Copy Text</button>
+            </div>
+        </div>
+    </div>
+    <!-- End of result -->
+
+    <!-- Pre processing -->
+    <div class="container-preprocessing">
+        <div class="preprocessing">
+            <h1>Pre Processing</h1>
+            <div class="preprocessing-box">
+                <p id="audio-text">
+                    Audio to Text adalah platform sederhana dan efisien yang membantu Anda mengonversi percakapan, wawancara, kuliah, atau rekaman lainnya menjadi teks. Kami mendukung berbagai format file, termasuk MP3, MP4, dan banyak lagi.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End of pre processing -->
+
+    <!-- Label -->
+    <div class="container-label">
+        <div class="label">
+            <h1>Label Data</h1>
+            <p>Berikut adalah hasil analisis data, di mana setiap paragraf telah dikategorikan sesuai dengan klasifikasi yang relevan</p>
+        </div>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Hasil</th>
+                        <th>Label</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Transkripsi Audio 1</td>
+                        <td>Kategori 1</td>
+                    </tr>
+                    <tr>
+                        <td>Transkripsi Audio 2</td>
+                        <td>Kategori 2</td>
+                    </tr>
+                    <tr>
+                        <td>Transkripsi Audio 3</td>
+                        <td>Kategori 3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>
